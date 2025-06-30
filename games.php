@@ -38,6 +38,7 @@
 	</header>
 	<main>
 		<div class="container">
+			<a href="views/tictactoe.php">Крестики-нолики</a>
 			игра1 игра2 игра3 игра4
 		</div>
 	</main>

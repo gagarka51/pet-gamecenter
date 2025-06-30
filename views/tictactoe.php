@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Games</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/bulma.min.css">
 </head>
 <body>
 	<header>
@@ -39,19 +40,19 @@
 		<div class="container">
 			<div class="area is-flex is-justify-content-center">
 				<div class="area-row">
-					<div class="area-field"></div>
-					<div class="area-field"></div>
-					<div class="area-field"></div>
+					<div class="area-field square"></div>
+					<div class="area-field square"></div>
+					<div class="area-field square"></div>
 				</div>
 				<div class="area-row">
-					<div class="area-field"></div>
-					<div class="area-field"></div>
-					<div class="area-field"></div>
+					<div class="area-field square"></div>
+					<div class="area-field square"></div>
+					<div class="area-field square"></div>
 				</div>
 				<div class="area-row">
-					<div class="area-field"></div>
-					<div class="area-field"></div>
-					<div class="area-field"></div>
+					<div class="area-field square"></div>
+					<div class="area-field square"></div>
+					<div class="area-field square"></div>
 				</div>
 			</div>
 		</div>
@@ -61,5 +62,6 @@
 			<p>Directed by Svetlana</p>
 		</div>
 	</footer>
+	<script type="text/javascript" src="../assets/js/tic-tac-toe.js"></script>
 </body>
 </html>

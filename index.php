@@ -1,3 +1,14 @@
+<?php 
+
+/* toDo:
+
+1. Autoloader
+2. Right structure folders
+
+
+ */
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
