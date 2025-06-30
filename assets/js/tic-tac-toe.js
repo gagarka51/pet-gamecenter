@@ -1,7 +1,11 @@
-let squares = document.querySelectorAll("square");
+let squares = document.querySelectorAll(".square");
 
 squares.forEach((square) => {
 	square.addEventListener("click", function () {
-		console.log('booom');
+		if (square.innerHTML === "") {
+			square.innerHTML = "x";
+		} else {
+			alert("Ой-ой, Бобрито Бандито");
+		}
 	});
 });
