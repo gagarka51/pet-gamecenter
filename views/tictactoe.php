@@ -38,6 +38,16 @@
 	</header>
 	<main>
 		<div class="container">
+			<article class="message is-success">
+  				<div class="message-header">
+    				<p>Победа!</p>
+    				<button class="delete" aria-label="delete"></button>
+  				</div>
+  				<div class="message-body">
+  					На этот раз сильнее оказались: 
+  				</div>
+			</article>
+
 			<div class="area is-flex is-justify-content-center">
 				<div class="area-row">
 					<div class="area-field square" id="field-1"></div>
