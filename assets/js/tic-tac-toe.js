@@ -14,3 +14,7 @@ squares.forEach((square) => {
 		}
 	});
 });
+
+function compareSteps() {
+	
+}
