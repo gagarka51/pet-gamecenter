@@ -43,7 +43,7 @@
     				<p>Победа!</p>
     				<button class="delete" aria-label="delete"></button>
   				</div>
-  				<div class="message-body">
+  				<div class="message-body" id="message-block">
   					На этот раз сильнее оказались: 
   				</div>
 			</article>
