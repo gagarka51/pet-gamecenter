@@ -118,7 +118,7 @@ function clearAllFields() {
 
 function addMessageForWinner(winner) {
 	messageBlock.classList.remove("is-hidden");
-	console.log("Да!");
+
 	switch(winner) {
 		case "x" : winner = "Крестики";
 		break;
@@ -132,5 +132,5 @@ function addMessageForWinner(winner) {
 function closeMessage() {
 	deleteBtn.addEventListener("click", function () {
 		messageBlock.classList.add("is-hidden");
-	}
+	});
 }
