@@ -126,3 +126,7 @@ function addMessageForWinner(winner) {
 	}
 	message.innerHTML += "На этот раз сильнее оказались: " + winner;
 }
+
+function closeMessage() {
+	
+}

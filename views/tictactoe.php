@@ -41,7 +41,7 @@
 			<article class="message is-success my-5 mx-auto is-hidden" id="message-block">
   				<div class="message-header">
     				<p>Победа!</p>
-    				<button class="delete" aria-label="delete"></button>
+    				<button class="delete" aria-label="delete" id="delete-btn"></button>
   				</div>
   				<div class="message-body" id="message"></div>
 			</article>
