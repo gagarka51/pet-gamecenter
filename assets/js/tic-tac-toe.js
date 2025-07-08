@@ -13,6 +13,11 @@ let messageBlock = document.getElementById("message-block");
 let deleteBtn = document.getElementById("delete-btn");
 let countSteps = 0;
 
+// ToDo: 
+// 1. Предусмотреть ничью
+// 2. Убрать баги
+// 3. Отформатировать код
+
 squares.forEach((square) => {
 	square.addEventListener("click", function () {
 		if (square.innerHTML === "" && countSteps % 2 == 0) {
