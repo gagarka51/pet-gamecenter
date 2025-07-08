@@ -10,6 +10,7 @@ let field1 = document.getElementById("field-1"),
 	field9 = document.getElementById("field-9");
 let message = document.getElementById("message");
 let messageBlock = document.getElementById("message-block");
+let deleteBtn = document.getElementById("delete-btn");
 let countSteps = 0;
 
 squares.forEach((square) => {
@@ -125,8 +126,11 @@ function addMessageForWinner(winner) {
 		break;
 	}
 	message.innerHTML += "На этот раз сильнее оказались: " + winner;
+	closeMessage();
 }
 
 function closeMessage() {
-	
+	deleteBtn.addEventListener("click", function () {
+		messageBlock.classList.add("is-hidden");
+	}
 }
