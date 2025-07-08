@@ -38,12 +38,12 @@
 	</header>
 	<main>
 		<div class="container">
-			<article class="message is-success my-5 mx-auto is-hidden">
+			<article class="message is-success my-5 mx-auto is-hidden" id="message-block">
   				<div class="message-header">
     				<p>Победа!</p>
     				<button class="delete" aria-label="delete"></button>
   				</div>
-  				<div class="message-body" id="message-block"></div>
+  				<div class="message-body" id="message"></div>
 			</article>
 
 			<div class="area is-flex is-justify-content-center">

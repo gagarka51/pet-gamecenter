@@ -8,6 +8,7 @@ let field1 = document.getElementById("field-1"),
 	field7 = document.getElementById("field-7"),
 	field8 = document.getElementById("field-8"),
 	field9 = document.getElementById("field-9");
+let message = document.getElementById("message");
 let messageBlock = document.getElementById("message-block");
 let countSteps = 0;
 
@@ -115,6 +116,8 @@ function clearAllFields() {
 }
 
 function addMessageForWinner(winner) {
+	messageBlock.classList.remove("is-hidden");
+	
 	switch(winner) {
 		case : "x"
 			winner = "Крестики"
@@ -123,5 +126,5 @@ function addMessageForWinner(winner) {
 			winner = "Нолики"
 			break;
 	}
-	messageBlock.innerHTML += "На этот раз сильнее оказались: " + winner;
+	message.innerHTML += "На этот раз сильнее оказались: " + winner;
 }
