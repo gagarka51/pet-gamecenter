@@ -40,19 +40,19 @@
 		<div class="container">
 			<div class="area is-flex is-justify-content-center">
 				<div class="area-row">
-					<div class="area-field square"></div>
-					<div class="area-field square"></div>
-					<div class="area-field square"></div>
+					<div class="area-field square" id="field-1"></div>
+					<div class="area-field square" id="field-4"></div>
+					<div class="area-field square" id="field-7"></div>
 				</div>
 				<div class="area-row">
-					<div class="area-field square"></div>
-					<div class="area-field square"></div>
-					<div class="area-field square"></div>
+					<div class="area-field square" id="field-2"></div>
+					<div class="area-field square" id="field-5"></div>
+					<div class="area-field square" id="field-8"></div>
 				</div>
 				<div class="area-row">
-					<div class="area-field square"></div>
-					<div class="area-field square"></div>
-					<div class="area-field square"></div>
+					<div class="area-field square" id="field-3"></div>
+					<div class="area-field square" id="field-6"></div>
+					<div class="area-field square" id="field-9"></div>
 				</div>
 			</div>
 		</div>
