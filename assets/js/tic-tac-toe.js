@@ -117,14 +117,12 @@ function clearAllFields() {
 
 function addMessageForWinner(winner) {
 	messageBlock.classList.remove("is-hidden");
-	
+	console.log("Да!");
 	switch(winner) {
-		case : "x"
-			winner = "Крестики"
-			break;
-		case : "o"
-			winner = "Нолики"
-			break;
+		case "x" : winner = "Крестики";
+		break;
+		case "o" : winner = "Нолики";
+		break;
 	}
 	message.innerHTML += "На этот раз сильнее оказались: " + winner;
 }
