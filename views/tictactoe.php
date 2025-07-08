@@ -38,7 +38,7 @@
 	</header>
 	<main>
 		<div class="container">
-			<article class="message is-success">
+			<article class="message is-success my-5 mx-auto is-hidden">
   				<div class="message-header">
     				<p>Победа!</p>
     				<button class="delete" aria-label="delete"></button>
